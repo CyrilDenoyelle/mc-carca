@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: auto;
+	font-family: 'Bellefair', serif;
+}
+
+.header{
+	display: flex;
+	background-color: #333;
+	height: 7vh;
+	justify-content: space-around;
+}
+
+.logo{
+	width: 50%;
+	margin-left: 30px;
+}
+.logo>a>img{
+	height: 50px;
+	width: 100px;
+	
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main{
+	display: flex;
+	height: 75vh;
+	background-color: #222;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.main>input{
+	width: 100vw;
+	
+}
+
+.footer{
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	height: 13vh;
+	background-color: #333;
+}
+
+.mosaic{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 40vw;
+	height: 72vh;
+	background-color: #333;
+	border-right: solid 2px #222;
+	overflow: auto;
+}
+
+.mosaicImg{
+	width: 12vw;
+	height: 12vw;
+}
+
+.details{
+	width: 25vw;
+	height: 72vh;
+	background-color: #333;
+	border-left: solid 2px #222;
+}
+
+.details>p{
+	padding: 20px;
+	color: white;
+}
+
+.filters{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	background-color: #222;
+	color: white;
+}
+
+.filter{
+	margin: auto 20px;
+}
+
+#number {
+	width: 35px;
+}
